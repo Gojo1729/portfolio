@@ -11,7 +11,6 @@ export default function Footer() {
   const socialLinks = [
     { icon: <Github size={18} />, href: social.github, label: "GitHub" },
     { icon: <Linkedin size={18} />, href: social.linkedin, label: "LinkedIn" },
-    { icon: <Twitter size={18} />, href: social.twitter, label: "Twitter" },
     { icon: <Mail size={18} />, href: `mailto:${personal.email}`, label: "Email" },
   ];
 
