@@ -6,6 +6,9 @@ import { Camera, X, MapPin, Calendar, ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import portfolioData from "@/data/portfolio.json";
 
+// Get basePath for production deployment
+const basePath = process.env.NODE_ENV === "production" ? "/portfolio" : "";
+
 interface Photo {
   id: number;
   title: string;
@@ -43,7 +46,7 @@ function PhotoModal({ photo, onClose }: { photo: Photo; onClose: () => void }) {
           <div className="aspect-[4/3] bg-dark-800 flex items-center justify-center">
             {photo.image ? (
               <img
-                src={photo.image}
+                src={`${basePath}${photo.image}`}
                 alt={photo.title}
                 className="w-full h-full object-contain"
               />
@@ -86,7 +89,7 @@ function PhotoCard({ photo, index, onClick }: { photo: Photo; index: number; onC
     >
       {photo.image ? (
         <img
-          src={photo.image}
+          src={`${basePath}${photo.image}`}
           alt={photo.title}
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
         />

@@ -1,25 +1,36 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Heart, Github, Linkedin, Twitter, Mail } from "lucide-react";
+import { Heart, Github, Linkedin } from "lucide-react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import portfolioData from "@/data/portfolio.json";
 
 export default function Footer() {
   const { personal, social, navigation } = portfolioData;
   const currentYear = new Date().getFullYear();
+  const pathname = usePathname();
 
   const socialLinks = [
     { icon: <Github size={18} />, href: social.github, label: "GitHub" },
     { icon: <Linkedin size={18} />, href: social.linkedin, label: "LinkedIn" },
-    { icon: <Mail size={18} />, href: `mailto:${personal.email}`, label: "Email" },
   ];
 
-  const scrollToSection = (href: string) => {
+  const handleNavClick = (href: string) => {
+    if (href.startsWith("/")) {
+      return;
+    }
+    if (pathname !== "/") {
+      window.location.href = "/" + href;
+      return;
+    }
     const element = document.querySelector(href);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
+
+  const isPageLink = (href: string) => href.startsWith("/");
 
   return (
     <footer className="bg-dark-900 border-t border-dark-800">
@@ -27,17 +38,13 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <a
-              href="#home"
-              onClick={(e) => {
-                e.preventDefault();
-                scrollToSection("#home");
-              }}
+            <Link
+              href="/"
               className="text-2xl font-bold bg-gradient-to-r from-primary-400 to-primary-600 bg-clip-text text-transparent"
             >
               {personal.name.split(" ")[0]}
               <span className="text-white">.</span>
-            </a>
+            </Link>
             <p className="mt-4 text-dark-400 text-sm leading-relaxed">
               {personal.title} passionate about building exceptional digital
               experiences. Let&apos;s create something amazing together.
@@ -49,17 +56,27 @@ export default function Footer() {
             <h4 className="text-white font-semibold mb-4">Quick Links</h4>
             <nav className="grid grid-cols-2 gap-2">
               {navigation.map((item) => (
-                <a
-                  key={item.name}
-                  href={item.href}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    scrollToSection(item.href);
-                  }}
-                  className="text-dark-400 hover:text-primary-400 transition-colors text-sm"
-                >
-                  {item.name}
-                </a>
+                isPageLink(item.href) ? (
+                  <Link
+                    key={item.name}
+                    href={item.href}
+                    className="text-dark-400 hover:text-primary-400 transition-colors text-sm"
+                  >
+                    {item.name}
+                  </Link>
+                ) : (
+                  <a
+                    key={item.name}
+                    href={item.href}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      handleNavClick(item.href);
+                    }}
+                    className="text-dark-400 hover:text-primary-400 transition-colors text-sm cursor-pointer"
+                  >
+                    {item.name}
+                  </a>
+                )
               ))}
             </nav>
           </div>
@@ -83,7 +100,7 @@ export default function Footer() {
                 </motion.a>
               ))}
             </div>
-            <p className="mt-4 text-dark-400 text-sm">{personal.email}</p>
+            <p className="mt-4 text-dark-400 text-sm">{personal.location}</p>
           </div>
         </div>
 

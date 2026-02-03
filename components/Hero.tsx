@@ -4,6 +4,9 @@ import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail, Download } from "lucide-react";
 import portfolioData from "@/data/portfolio.json";
 
+// Get basePath for production deployment
+const basePath = process.env.NODE_ENV === "production" ? "/portfolio" : "";
+
 export default function Hero() {
   const { personal, social } = portfolioData;
 
@@ -94,7 +97,7 @@ export default function Hero() {
               Get In Touch
             </motion.a>
             <motion.a
-              href={personal.resumeUrl}
+              href={`${basePath}${personal.resumeUrl}`}
               download
               className="px-8 py-3 bg-dark-800 hover:bg-dark-700 text-white rounded-lg font-medium transition-all duration-300 border border-dark-700 hover:border-dark-600 flex items-center justify-center gap-2"
               whileHover={{ scale: 1.05 }}

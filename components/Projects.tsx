@@ -6,6 +6,9 @@ import { useRef, useState } from "react";
 import { Folder, Play, X } from "lucide-react";
 import portfolioData from "@/data/portfolio.json";
 
+// Get basePath for production deployment
+const basePath = process.env.NODE_ENV === "production" ? "/portfolio" : "";
+
 interface Project {
   id: number;
   title: string;
@@ -39,7 +42,7 @@ function VideoModal({ videoUrl, onClose }: { videoUrl: string; onClose: () => vo
           <X size={24} />
         </button>
         <video
-          src={videoUrl}
+          src={`${basePath}${videoUrl}`}
           controls
           autoPlay
           className="w-full aspect-video"

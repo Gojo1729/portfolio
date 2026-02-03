@@ -5,7 +5,7 @@
     "tagline": "Building scalable AI-powered products from the ground up with expertise in backend systems and LLM applications",
     "bio": "Software Developer with 5+ years of experience building scalable products from the ground up. I specialize in AI backend systems, LLM-powered applications, and cloud infrastructure. With a Master's in Computer Science from UT Dallas (GPA 3.8) and hands-on experience at AI startups, I love turning complex problems into elegant, high-performance solutions. From processing millions of messages daily to deploying ML models to millions of devices, I thrive on building systems that scale.",
     "email": "shivshankar.hc@gmail.com",
-    "phone": "+1 (945) 527-5012",
+    "phone": "",
     "location": "Dallas, Texas",
     "resumeUrl": "/resume.pdf",
     "profileImage": "/images/profile.jpg"
@@ -17,7 +17,7 @@
   },
   "skills": {
     "frontend": ["React", "JavaScript", "TypeScript", "Android/Kotlin", "Next.js"],
-    "backend": ["Python", "FastAPI", "Node.js", "LlamaIndex/RAG", "Java/SpringBoot"],
+    "backend": ["Python", "FastAPI", "Node.js", "LlamaIndex/RAG", "Java"],
     "tools": ["Redis/RabbitMQ", "MySQL/PostgreSQL", "AWS (EC2/Lambda)", "Docker", "Celery"]
   },
   "experience": [
