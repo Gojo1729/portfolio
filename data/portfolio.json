@@ -1,0 +1,215 @@
+{
+  "personal": {
+    "name": "Shivashankar Chandrashekaraiah (Shiv)",
+    "title": "AI Backend Engineer",
+    "tagline": "Building scalable AI-powered products from the ground up with expertise in backend systems and LLM applications",
+    "bio": "Software Developer with 5+ years of experience building scalable products from the ground up. I specialize in AI backend systems, LLM-powered applications, and cloud infrastructure. With a Master's in Computer Science from UT Dallas (GPA 3.8) and hands-on experience at AI startups, I love turning complex problems into elegant, high-performance solutions. From processing millions of messages daily to deploying ML models to millions of devices, I thrive on building systems that scale.",
+    "email": "shivshankar.hc@gmail.com",
+    "phone": "+1 (945) 527-5012",
+    "location": "Dallas, Texas",
+    "resumeUrl": "/resume.pdf",
+    "profileImage": "/images/profile.jpg"
+  },
+  "social": {
+    "github": "https://github.com/gojo1729",
+    "linkedin": "https://www.linkedin.com/in/shivashankar1998/",
+    "portfolio": "https://gojo1729.github.io/"
+  },
+  "skills": {
+    "frontend": ["React", "JavaScript", "TypeScript", "Android/Kotlin", "Next.js"],
+    "backend": ["Python", "FastAPI", "Node.js", "LlamaIndex/RAG", "Java/SpringBoot"],
+    "tools": ["Redis/RabbitMQ", "MySQL/PostgreSQL", "AWS (EC2/Lambda)", "Docker", "Celery"]
+  },
+  "experience": [
+    {
+      "id": 1,
+      "company": "Xrep.AI",
+      "role": "Software Engineer",
+      "duration": "Jun 2025 - Present",
+      "location": "Dallas, Texas",
+      "description": "Engineering robust backend systems for AI-powered communication platform, focusing on scalable task queues, RAG pipelines, and dynamic AI agent tooling.",
+      "highlights": [
+        "Engineered a resilient task queue using Celery and Redis to manage OpenAI API rate limits (TPM) and ensure reliable delivery of text messages",
+        "Built a RAG pipeline using Pinecone, solved challenges related to large file sizes, custom chunking method for CSV files",
+        "Built a dynamic tool calling functionality for AI agents, helping users create custom tool calling functionalities for their AI agents"
+      ],
+      "technologies": ["Python", "Celery", "Redis", "Pinecone", "LlamaIndex", "FastAPI", "AWS"]
+    },
+    {
+      "id": 2,
+      "company": "Xrep.AI",
+      "role": "Software Engineer Intern",
+      "duration": "May 2024 - May 2025",
+      "location": "Dallas, Texas",
+      "description": "Architected and scaled backend systems for a customer support voice AI platform, from MVP to processing 1 million messages daily.",
+      "highlights": [
+        "Collaborated on MySQL database design and implemented caching systems to efficiently support 100,000 daily inbound/outbound calls by managing Twilio's CPS and concurrent stream constraints",
+        "Architected backend system for customer support voice AI platform using WebSockets, FastAPI, Redis, and Express.js to manage real-time audio streams via Twilio with sub-second latency",
+        "Developed an AI-driven reminder scheduling system targeting inactive customer conversations, projected to improve conversion rates by 25%",
+        "Launched the platform by onboarding the first paying customer and scaled the backend to process 1 million messages daily",
+        "Implemented React-based UI features and established CI/CD pipelines to accelerate deployment and testing cycles"
+      ],
+      "technologies": ["WebSockets", "FastAPI", "Redis", "MySQL", "Twilio", "Celery", "RabbitMQ", "React"]
+    },
+    {
+      "id": 3,
+      "company": "Rizzle",
+      "role": "Senior Engineer",
+      "duration": "Jul 2021 - Jul 2023",
+      "location": "Hyderabad, India",
+      "description": "Led development of AI-powered video features, mentored junior engineers, and drove product roadmap for the Android app.",
+      "highlights": [
+        "Led development of 'Video Smart Cropping' - a deep learning-based, saliency-aware video cropping solution using object localization",
+        "Improved processing times by 30% through parallel processing techniques and AWS Lambda container deployments",
+        "Prompt engineered GPT-3.5-Turbo for text summarization to enhance short video creation",
+        "Implemented 'Face Transformation' AI filter and face similarity using FaceNet embeddings",
+        "Mentored junior engineers and conducted code reviews"
+      ],
+      "technologies": ["Python", "PyTorch", "FastAPI", "Mediapipe", "AWS Lambda", "GPT-3.5", "Deep Learning"],
+      "videoDemo": "/videos/FT.mp4"
+    },
+    {
+      "id": 4,
+      "company": "Myelin Foundry",
+      "role": "Software Engineer",
+      "duration": "Sep 2020 - Jun 2021",
+      "location": "Bengaluru, India",
+      "description": "Designed AWS infrastructure for delivering encrypted deep learning models to Android devices, enabling super-resolution capabilities deployed to millions of devices.",
+      "highlights": [
+        "Designed AWS infrastructure for delivering encrypted deep learning models to Android devices",
+        "Enabled super-resolution capabilities on mobile devices",
+        "Successfully deployed the system to millions of Android devices during a POC with Hotstar IPL"
+      ],
+      "technologies": ["AWS", "Python", "Android", "Deep Learning", "Encryption"]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Motion Tracking",
+      "description": "AI camera filter that dynamically follows facial movements to create engaging videos. Built using Camera2, Mediapipe, OpenGL, and Kotlin on Android. Commended by co-founder for exceeding quality expectations.",
+      "technologies": ["Android", "Kotlin", "Mediapipe", "OpenGL", "TensorFlow"],
+      "featured": true,
+      "videoDemo": "/videos/MT1.mp4"
+    },
+    {
+      "id": 2,
+      "title": "Face Transformation",
+      "description": "AI filter that fuses two faces together in a dramatic, smooth manner using face detection and Delaunay triangulation. Extended with face similarity using FaceNet embeddings and cosine similarity metrics.",
+      "technologies": ["Python", "FaceNet", "Delaunay Triangulation", "OpenCV"],
+      "featured": true,
+      "videoDemo": "/videos/FT.mp4"
+    },
+    {
+      "id": 3,
+      "title": "Gesture Recognition",
+      "description": "Enables screen interaction through pointing gestures. Users can select options displayed on screen using hand gestures detected via computer vision.",
+      "technologies": ["Computer Vision", "Gesture Detection", "Python", "Mediapipe"],
+      "featured": true,
+      "videoDemo": "/videos/GD.mp4"
+    },
+    {
+      "id": 4,
+      "title": "Voice AI Platform Backend",
+      "description": "Real-time voice AI platform with sub-second latency processing 1000+ daily calls. Architected using WebSockets, NodeJS, Redis for Twilio audio streams with GPT-4 integration.",
+      "technologies": ["FastAPI", "WebSockets", "Redis", "Twilio", "MySQL", "GPT-4"],
+      "featured": true
+    },
+    {
+      "id": 5,
+      "title": "Redis-Style In-Memory Datastore",
+      "description": "A lightweight, Redis-inspired in-memory key-value store built in Java with RESP-style serialization, Java NIO for handling multiple client connections, and minimal persistence layer using periodic snapshots.",
+      "technologies": ["Java", "NIO", "RESP Protocol", "Data Structures"],
+      "featured": true
+    },
+    {
+      "id": 6,
+      "title": "RAG Chatbot with Custom Transformer",
+      "description": "Built and trained a Transformer model from scratch using PyTorch to create sentence embeddings. Finetuned Llama-2-7B chat model to answer questions by fetching relevant documents from ChromaDB vector database.",
+      "technologies": ["PyTorch", "Transformers", "Llama-2", "ChromaDB", "Python"],
+      "featured": true
+    },
+    {
+      "id": 7,
+      "title": "PII Identification Benchmarking",
+      "description": "Whitepaper comparing PII identification systems including AWS Comprehend, MS Presidio, and Protecto. Created in collaboration with Dataxpert.ai for detecting personally identifiable information in unstructured text.",
+      "technologies": ["NLP", "AWS Comprehend", "MS Presidio", "Python", "Research"],
+      "featured": false
+    },
+    {
+      "id": 8,
+      "title": "Video Smart Cropping",
+      "description": "State-of-the-art saliency-aware video cropping using object detection and localization. Achieved 30% reduction in processing time, deployed on AWS Lambda containers.",
+      "technologies": ["Python", "PyTorch", "AWS Lambda", "Object Detection"],
+      "featured": false
+    },
+    {
+      "id": 9,
+      "title": "Song Lyrics Analysis",
+      "description": "Performs sentiment classification and lyrics generation using dual approaches with Word2Vec, K-Means clustering, and Neural Networks. Features interactive Gradio interface.",
+      "technologies": ["Word2Vec", "K-Means", "Neural Networks", "TensorBoard", "Gradio"],
+      "featured": false
+    },
+    {
+      "id": 10,
+      "title": "Deep CNN from Scratch",
+      "description": "Implements convolutional neural network layers including forward and backward propagation from scratch using only NumPy for deep understanding of CNN internals.",
+      "technologies": ["NumPy", "CNNs", "Backpropagation", "Python"],
+      "featured": false
+    },
+    {
+      "id": 11,
+      "title": "Fovea Stream (Super Resolution)",
+      "description": "Real-time video super resolution on Qualcomm DSPs using ESRGAN model. Deployed to millions of Android devices during Hotstar IPL POC. Reduced AWS costs by 15%.",
+      "technologies": ["Android", "ESRGAN", "Qualcomm DSP", "OpenGL", "AWS"],
+      "featured": false
+    },
+    {
+      "id": 12,
+      "title": "Custom YOLO Object Detection",
+      "description": "Customized YOLO implementation for recognizing specific objects with fine-tuned detection capabilities.",
+      "technologies": ["YOLO", "Object Detection", "Deep Learning", "Python"],
+      "featured": false
+    },
+    {
+      "id": 13,
+      "title": "Facial Expression Recognition",
+      "description": "Classifies emotional expressions from facial features using deep learning and expression classification techniques.",
+      "technologies": ["Deep Learning", "Expression Classification", "Python"],
+      "featured": false
+    }
+  ],
+  "stats": [
+    { "label": "Years Experience", "value": "5+" },
+    { "label": "Messages/Day", "value": "1M+" },
+    { "label": "Devices Deployed", "value": "Millions" },
+    { "label": "Master's GPA", "value": "3.8" }
+  ],
+  "navigation": [
+    { "name": "Home", "href": "#home" },
+    { "name": "About", "href": "#about" },
+    { "name": "Skills", "href": "#skills" },
+    { "name": "Experience", "href": "#experience" },
+    { "name": "Projects", "href": "#projects" },
+    { "name": "Gallery", "href": "/gallery" },
+    { "name": "Contact", "href": "#contact" }
+  ],
+  "gallery": [
+    {
+      "id": 1,
+      "title": "Mt Rainier, Seattle",
+      "description": "",
+      "image": "/images/gallery/PXL_20240804_004546468.jpg",
+      "location": "",
+      "date": "Aug 2024"
+    },
+    {
+      "id": 2,
+      "title": "Lewisville Lake, Dallas",
+      "description": "",
+      "image": "/images/gallery/PXL_20250602_012724771.jpg",
+      "location": "",
+      "date": "Jun 2025"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+
+Experience
+
+Xrep AI logo
+Xrep AI
+Xrep AI
+1 yr 10 mos1 yr 10 mos
+AI Backend Engineer
+AI Backend Engineer
+Full-timeFull-time
+Jun 2025 - Present · 9 mosJun 2025 to Present · 9 mos
+United States · RemoteUnited States · Remote
+- Engineered a resilient task queue using Celery and Redis to manage OpenAI API rate limits (TPM) and ensure reliable delivery of text messages.
+- Built a RAG pipeline using Pinecone, solved challenges related to large file sizes, custom chunking method for CSV files.
+- Built a dynamic tool calling functionality for AI agents, helping users create custom tool calling functionalities for their AI 
+agents
+- Engineered a resilient task queue using Celery and Redis to manage OpenAI API rate limits (TPM) and ensure reliable delivery of text messages. - Built a RAG pipeline using Pinecone, solved challenges related to large file sizes, custom chunking method for CSV files. - Built a dynamic tool calling functionality for AI agents, helping users create custom tool calling functionalities for their AI agents
+Skills: Large Language Models (LLM) · Node.js · Python · Redis · RabbitMQ · FastAPI · Llamaindex · Amazon Web Services (AWS) · Celery · Linux · MySQL
+Skills: Large Language Models (LLM) · Node.js · Python · Redis · RabbitMQ · FastAPI · Llamaindex · Amazon Web Services (AWS) · Celery · Linux · MySQL
+Software Engineer Intern - co-op
+Software Engineer Intern - co-op
+Full-timeFull-time
+Jan 2025 - May 2025 · 5 mosJan 2025 to May 2025 · 5 mos
+Dallas, TX · RemoteDallas, TX · Remote
+1) Developed an AI-driven reminder scheduling system for Xrep.AI that targets inactive customer conversations and customers who haven’t replied to the first text, projected to improve conversion rates by 25%. This functionality was built using cron jobs, celery, mysql, redis and rabbitmq.
+
+2) Improved the outbound text campaigns throughput by 10x by employing Thread pools and batch processing
+1) Developed an AI-driven reminder scheduling system for Xrep.AI that targets inactive customer conversations and customers who haven’t replied to the first text, projected to improve conversion rates by 25%. This functionality was built using cron jobs, celery, mysql, redis and rabbitmq. 2) Improved the outbound text campaigns throughput by 10x by employing Thread pools and batch processing
+Skills: Python · Celery · Redis · MySQL · RabbitMQ · Node.js
+Skills: Python · Celery · Redis · MySQL · RabbitMQ · Node.js
+Software Engineer Intern - co-op
+Software Engineer Intern - co-op
+Part-timePart-time
+Aug 2024 - Dec 2024 · 5 mosAug 2024 to Dec 2024 · 5 mos
+Dallas, TX · On-siteDallas, TX · On-site
+1) Spearheading the development of intelligent LLM-powered agents for SMS marketing campaigns, integrating Twilio for communication, Celery for background task processing, Redis for real-time data management, and MySQL for efficient data storage. Leveraging Python, FastAPI, Node.js, and Llama Index to build scalable and high-performance systems.
+
+2) Enhanced user interaction by implementing features like automated calendar invites through Zapier, and leveraging Llama Index to intelligently post-process conversations between the user and AI assistant for improved context and relevance.
+
+3) Optimized the backend architecture to efficiently handle high-volume messaging, successfully tested to support 3,000-5,000 SMS per day and process over 100 messages per minute, ensuring scalability and reliability under peak loads.
+1) Spearheading the development of intelligent LLM-powered agents for SMS marketing campaigns, integrating Twilio for communication, Celery for background task processing, Redis for real-time data management, and MySQL for efficient data storage. Leveraging Python, FastAPI, Node.js, and Llama Index to build scalable and high-performance systems. 2) Enhanced user interaction by implementing features like automated calendar invites through Zapier, and leveraging Llama Index to intelligently post-process conversations between the user and AI assistant for improved context and relevance. 3) Optimized the backend architecture to efficiently handle high-volume messaging, successfully tested to support 3,000-5,000 SMS per day and process over 100 messages per minute, ensuring scalability and reliability under peak loads.
+Skills: Python · LLama Index · Celery · Node.js · Retrieval-Augmented Generation (RAG) · MySQL · Redis · Amazon Web Services (AWS) · FastAPI · Large Language Models (LLM) · Machine Learning · Deep Learning · Vector Databases · Pinecone · Twilio
+Skills: Python · LLama Index · Celery · Node.js · Retrieval-Augmented Generation (RAG) · MySQL · Redis · Amazon Web Services (AWS) · FastAPI · Large Language Models (LLM) · Machine Learning · Deep Learning · Vector Databases · Pinecone · Twilio
+Software Engineer Intern
+Software Engineer Intern
+InternshipInternship
+May 2024 - Jul 2024 · 3 mosMay 2024 to Jul 2024 · 3 mos
+Dallas, TX · On-siteDallas, TX · On-site
+1) Designed and implemented backend architecture using WebSockets, NodeJS, Redis, and ExpressJS to 
+manage real-time audio streams from Twilio, facilitating conversations with a language model (GPT-
+4) with latency under a second.
+
+2) Collaborated in designing MySQL databases and cache system to support the application, ensuring
+efficient handling of 1000 inbound and outbound calls daily.
+
+3) Utilized Docker to manage multiple NodeJS, FastAPI, MySQL, Redis, RabbitMQ microservices for
+streamlining the deployment to stage and production servers.
+
+4) Engineered a robust queuing system utilizing Celery, RabbitMQ, and Redis to oversee outbound call 
+campaigns for 1000 contacts. This system managed Twilio’s rate limit, retried calls in case of failure 
+due to the rate limit or unanswered calls, processed large documents, and created indexes in the 
+Pinecone vector database for Retrieval Augmented Generation (RAG). It tackled scalability issues, 
+maintained smooth API performance across multiple servers, and resolved time zone conflicts for 
+meeting scheduling with Cal.com.
+
+5) Developed background tasks for CRM report generation (e.g., Salesforce) by processing audio 
+transcriptions from user-bot conversations, enhancing CRM data utility.1)
+1) Designed and implemented backend architecture using WebSockets, NodeJS, Redis, and ExpressJS to manage real-time audio streams from Twilio, facilitating conversations with a language model (GPT- 4) with latency under a second. 2) Collaborated in designing MySQL databases and cache system to support the application, ensuring efficient handling of 1000 inbound and outbound calls daily. 3) Utilized Docker to manage multiple NodeJS, FastAPI, MySQL, Redis, RabbitMQ microservices for streamlining the deployment to stage and production servers. 4) Engineered a robust queuing system utilizing Celery, RabbitMQ, and Redis to oversee outbound call campaigns for 1000 contacts. This system managed Twilio’s rate limit, retried calls in case of failure due to the rate limit or unanswered calls, processed large documents, and created indexes in the Pinecone vector database for Retrieval Augmented Generation (RAG). It tackled scalability issues, maintained smooth API performance across multiple servers, and resolved time zone conflicts for meeting scheduling with Cal.com. 5) Developed background tasks for CRM report generation (e.g., Salesforce) by processing audio transcriptions from user-bot conversations, enhancing CRM data utility.1)
+Skills: Python (Programming Language) · Retrieval-Augmented Generation (RAG) · Server Side Programming · Node.js · FastAPI · MySQL · Redis · Large Language Models (LLM) · Vector Databases · OpenAI · Fireworks
+Skills: Python (Programming Language) · Retrieval-Augmented Generation (RAG) · Server Side Programming · Node.js · FastAPI · MySQL · Redis · Large Language Models (LLM) · Vector Databases · OpenAI · Fireworks
+
+AI Agent DemoAI Agent Demo
+In this demo, watch how our intelligent virtual agent seamlessly interacts with users, providing instant responses, personalized solutions, and a smooth, efficient experience.
+
+This can be connected through a host of CRMs including Salesforce, Hubspot, Monday, and more.In this demo, watch how our intelligent virtual agent seamlessly interacts with users, providing instant responses, personalized solutions, and a smooth, efficient experience. This can be connected through a host of CRMs including Salesforce, Hubspot, Monday, and more.
+The University of Texas at Dallas logo
+Computer Science Outreach Instructor
+Computer Science Outreach Instructor
+The University of Texas at Dallas · Part-timeThe University of Texas at Dallas · Part-time
+Sep 2023 - May 2024 · 9 mosSep 2023 to May 2024 · 9 mos
+Dallas, Texas, United States · RemoteDallas, Texas, United States · Remote
+
+Benchmarking PII Identification in Unstructured TextBenchmarking PII Identification in Unstructured Text
+Whitepaper on comparing PII identification systems such as AWS Comprehend, MS Presidio and Protecto. This was created in collaboration with Dataxpert.ai (https://www.dataxpert.ai/)Whitepaper on comparing PII identification systems such as AWS Comprehend, MS Presidio and Protecto. This was created in collaboration with Dataxpert.ai (https://www.dataxpert.ai/)
+Rizzle logo
+Rizzle AI
+Rizzle AI
+Full-time · 2 yrs 1 moFull-time · 2 yrs 1 mo
+Hyderabad, Telangana, IndiaHyderabad, Telangana, India
+Senior Engineer
+Senior Engineer
+Jan 2022 - Jul 2023 · 1 yr 7 mosJan 2022 to Jul 2023 · 1 yr 7 mos
+Demonstrated leadership by outlining the roadmap for developing new features, conducting code reviews, offering guidance to junior engineers, and actively contributing to the product.
+
+Prompt engineered the GPT-3.5-Turbo LLM to generate summaries of text data, enhancing the creation of short videos. Led a team in the creation of features such as "Video Smart Cropping" a state-of-the-art video cropping solution leveraging object detection and object localization for enhanced saliency. Achieved a significant 30% reduction in processing time and seamlessly implemented the solution on AWS Lambda using containers. Proficiently utilized Python, PyTorch, Fast API, Mediapipe, AWS EC2, and AWS Lambda throughout the role.
+
+Implemented an AI camera filter called “Face transformation”. In the second phase of this project, I 
+implemented face similarity capability using “Face Net” embeddings.
+Demonstrated leadership by outlining the roadmap for developing new features, conducting code reviews, offering guidance to junior engineers, and actively contributing to the product. Prompt engineered the GPT-3.5-Turbo LLM to generate summaries of text data, enhancing the creation of short videos. Led a team in the creation of features such as "Video Smart Cropping" a state-of-the-art video cropping solution leveraging object detection and object localization for enhanced saliency. Achieved a significant 30% reduction in processing time and seamlessly implemented the solution on AWS Lambda using containers. Proficiently utilized Python, PyTorch, Fast API, Mediapipe, AWS EC2, and AWS Lambda throughout the role. Implemented an AI camera filter called “Face transformation”. In the second phase of this project, I implemented face similarity capability using “Face Net” embeddings.
+Skills: Deep Learning · Machine Learning · Mediapipe · PyTorch · Kotlin · RxJava · Java · Android
+Skills: Deep Learning · Machine Learning · Mediapipe · PyTorch · Kotlin · RxJava · Java · Android
+
+Face transformation DemoFace transformation Demo
+Demo video of an AI camera filter called “Face transformation”, it extensively used face detection and Delaunay triangulation to merge faces in smoother fashion. In the second phase of this project, implemented face similarity capability using “Face Net” embeddings and used cosine similarity as a similarity metric for comparing the embeddings.Demo video of an AI camera filter called “Face transformation”, it extensively used face detection and Delaunay triangulation to merge faces in smoother fashion. In the second phase of this project, implemented face similarity capability using “Face Net” embeddings and used cosine similarity as a similarity metric for comparing the embeddings.
+
+Motion Tracking - demo 1Motion Tracking - demo 1
+Demo of an AI feature called Motion Tracking. This feature helps users to create videos where the camera frame dynamically follows their facial movements.Demo of an AI feature called Motion Tracking. This feature helps users to create videos where the camera frame dynamically follows their facial movements.
+Software Engineer
+Software Engineer
+Jul 2021 - Dec 2021 · 6 mosJul 2021 to Dec 2021 · 6 mos
+Spearheaded the development of an AI camera filter named "Motion Tracking". This feature enables users to create videos where the camera frame dynamically follows their facial movements. This feature was built on Android, it made use of Camera2, Mediapipe, Exoplayer, Android Mediacodec, OpenGL, Kotlin, Kotlin Co-routines and Android custom views. Commended by the co-founder for outmatching his expectation on quality of the feature.
+Spearheaded the development of an AI camera filter named "Motion Tracking". This feature enables users to create videos where the camera frame dynamically follows their facial movements. This feature was built on Android, it made use of Camera2, Mediapipe, Exoplayer, Android Mediacodec, OpenGL, Kotlin, Kotlin Co-routines and Android custom views. Commended by the co-founder for outmatching his expectation on quality of the feature.
+Skills: TensorFlow · Kotlin · RxJava · OpenCV · Digital Image Processing
+Skills: TensorFlow · Kotlin · RxJava · OpenCV · Digital Image Processing
+Myelin Foundry logo
+Myelin Foundry
+Myelin Foundry
+1 yr 6 mos1 yr 6 mos
+Software Engineer
+Software Engineer
+Full-timeFull-time
+Aug 2020 - Jun 2021 · 11 mosAug 2020 to Jun 2021 · 11 mos
+o Implemented and maintained the supporting Android infrastructure for a product called Fovea Stream which runs super resolution algorithms on Digital signal processors (DSP) of Qualcomm mobile processors on videos in real time. Trained and fine-tuned a video super resolution model called ESRGAN to run in real time on mobile devices.
+o Reduced the AWS costs by 15% by improving the cloud infrastructure. Improved the battery 
+performance of the app by 10% by optimizing the OpenGL rendering.
+o Implemented and maintained the supporting Android infrastructure for a product called Fovea Stream which runs super resolution algorithms on Digital signal processors (DSP) of Qualcomm mobile processors on videos in real time. Trained and fine-tuned a video super resolution model called ESRGAN to run in real time on mobile devices. o Reduced the AWS costs by 15% by improving the cloud infrastructure. Improved the battery performance of the app by 10% by optimizing the OpenGL rendering.
+Intern
+Intern
+InternshipInternship
+Jan 2020 - Jul 2020 · 7 mosJan 2020 to Jul 2020 · 7 mos
+Bengaluru Area, IndiaBengaluru Area, India

@@ -1,0 +1,11 @@
+A little description on the attached videos. These are the result of the features I had built in the previous company. All are from the Android app 
+called "Rizzle" (my previous company).
+
+1. MT1.mp4 - This the video output of a feature called "Motion Tracking". You can see that the video frames are moving
+according to the person's face movement. This feature enables users to create videos which are more dynamic and fun.
+
+2. GD.mp4 - Using pointing gesture to select options displayed on the screen.
+
+3. FT.mp4 - This the video output of a feature called "Face transformation", this creates a video where it fuses the two faces together in a pretty
+dramatic and smooth manner.
+
