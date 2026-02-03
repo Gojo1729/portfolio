@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Code2, Server, Wrench } from "lucide-react";
+import { Code2, Server, Wrench, Brain, Database } from "lucide-react";
 import portfolioData from "@/data/portfolio.json";
 
 interface SkillCategoryProps {
@@ -85,10 +85,22 @@ export default function Skills() {
             title="Backend"
             skills={skills.backend}
             icon={<Server className="text-primary-400" size={24} />}
+            delay={0.1}
+          />
+          <SkillCategory
+            title="AI / ML"
+            skills={skills.ml}
+            icon={<Brain className="text-primary-400" size={24} />}
             delay={0.2}
           />
           <SkillCategory
-            title="Tools & Others"
+            title="Vector Databases"
+            skills={skills.vectordb}
+            icon={<Database className="text-primary-400" size={24} />}
+            delay={0.3}
+          />
+          <SkillCategory
+            title="Tools & Infrastructure"
             skills={skills.tools}
             icon={<Wrench className="text-primary-400" size={24} />}
             delay={0.4}

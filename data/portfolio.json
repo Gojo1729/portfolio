@@ -17,8 +17,10 @@
   },
   "skills": {
     "frontend": ["React", "JavaScript", "TypeScript", "Android/Kotlin", "Next.js"],
-    "backend": ["Python", "FastAPI", "Node.js", "LlamaIndex/RAG", "Java"],
-    "tools": ["Redis/RabbitMQ", "MySQL/PostgreSQL", "AWS (EC2/Lambda)", "Docker", "Celery"]
+    "backend": ["Python", "FastAPI", "Node.js", "Java", "Celery"],
+    "ml": ["PyTorch", "Deep Learning", "LlamaIndex", "LangChain", "LangGraph", "NumPy/Pandas", "spaCy"],
+    "vectordb": ["Pinecone", "ChromaDB", "Weaviate"],
+    "tools": ["Redis/RabbitMQ", "MySQL/PostgreSQL", "AWS (EC2/Lambda)", "Docker", "Document Processing"]
   },
   "experience": [
     {
