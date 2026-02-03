@@ -4,9 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // If deploying to https://gojo1729.github.io/ (root), leave basePath empty
-  // If deploying to https://gojo1729.github.io/portfolio, set basePath: "/portfolio"
-  basePath: "",
+  basePath: "/portfolio",
+  assetPrefix: "/portfolio",
   trailingSlash: true,
 };
 
